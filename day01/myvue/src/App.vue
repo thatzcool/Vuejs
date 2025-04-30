@@ -1,50 +1,30 @@
+<script>
+export default {
+        
+          data() {
+                return {
+                    number : 0,
+                };
+          }, 
 
-<!-- App.vue 는 루트컴포넌트  -->
-<!-- SFC(Single File Componet) : <script>, <template> <style> 로 구성되어 있다. -->
-<script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import TheWelcome from './components/TheWelcome.vue'
+          methods : {
+            increment(){
+                   this.number++;
+            },
+
+          }
+          
+
+      }
+
+
+
 </script>
 
 <template>
-  <header>
-    <img alt="Vue logo" class="logo" src="./assets/logo.svg" width="125" height="125" />
+  
+  <h1>{{ number }}</h1>
 
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-    </div>
-  </header>
+  <button type="button" @click="increment">증가</button>
 
-  <main>
-    <TheWelcome />
-  </main>
 </template>
-
-<style scoped>
-header {
-  line-height: 1.5;
-}
-
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
-}
-
-@media (min-width: 1024px) {
-  header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
-  }
-
-  header .wrapper {
-    display: flex;
-    place-items: flex-start;
-    flex-wrap: wrap;
-  }
-}
-</style>
