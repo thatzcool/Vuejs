@@ -5,7 +5,7 @@ const doubleNumber = computed(() => number.value * 2);
 // defineExpose() 함수로 지정한 값만 부모 컴포넌트에서 접근 가능
 defineExpose({
   number,
-  doubleNumber,
+  // doubleNumber,
 });
 </script>
 <template>

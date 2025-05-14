@@ -1,8 +1,12 @@
 <script setup>
 import { inject } from 'vue';
+
 const fruitsArr = inject('fruitsArr', []);
+
 const fruitsText = inject('fruitsText');
+
 const userObj = inject('userObj');
+
 </script>
 <template>
   <h1>{{ fruitsArr }}</h1>

@@ -2,6 +2,7 @@
 import { ref, watch, watchEffect, watchPostEffect } from 'vue';
 const message = ref('');
 const messageParagraph = ref(null);
+
 watch(message, () => {
   if (message.value) {
     console.log(`watch:${messageParagraph.value.innerText} `);

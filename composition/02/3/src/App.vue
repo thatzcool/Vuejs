@@ -7,6 +7,6 @@ import ComputedEx4 from './components/ComputedEx4.vue';
 <template>
   <!-- <ComputedEx1 /> -->
   <!-- <ComputedEx2 /> -->
-  <!-- <ComputedEx3 /> -->
-  <ComputedEx4 />
+  <ComputedEx3 />
+  <!-- <ComputedEx4 /> -->
 </template>

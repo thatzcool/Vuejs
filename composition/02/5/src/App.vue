@@ -11,8 +11,8 @@ import WatchPostEffectEx1 from './components/WatchPostEffectEx1.vue';
   <!-- <WatchEx1 /> -->
   <!-- <WatchEx2 /> -->
   <!-- <WatchEx3 /> -->
-  <!-- <WatchEx4 /> -->
-  <!-- <WatchEx5 /> -->
+  <!-- <WatchEx4 />
+  <WatchEx5 /> -->
   <!-- <WatchEffectEx1 /> -->
   <WatchPostEffectEx1 />
 </template>

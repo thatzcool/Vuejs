@@ -1,6 +1,6 @@
 <script setup>
 import { ref, reactive } from 'vue';
-import DefineEmits from '@/components/DefineEmits.vue';
+import DefineEmtis from './components/DefineEmtis.vue';
 const count = ref(0);
 const state = reactive({
   count: 0,
